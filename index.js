@@ -62,6 +62,7 @@ app.get('/', function(req, res) {
 .get('/projects', function(req, res) {
 	res.render('pages/projects', {
 		projects: projects.projects
+    // un commentaire
 	});
 })
 
